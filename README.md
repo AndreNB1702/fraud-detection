@@ -1,8 +1,9 @@
 # fraud-detection
 
-Project detecting fraud with Machine Learning - Artificial Intelligence - Universidade Federal de Rondônia
-
 English:
+
+Project detecting frauds with Machine Learning - Artificial Intelligence - Universidade Federal de Rondônia
+
 In this project, I used Boosting Models and compared to Baseline Models.
 
 analysis.ipynb: contains the exploratory analysis of the dataset. It was found that
@@ -15,7 +16,12 @@ I explored undersampling, k-folds, and class weights.
 When using class weights, I achieved the best recall (97.50%), but the accuracy was low (3.56%).
 When using undersampling, I achieved good recall (88.68%) and slightly better accuracy (11.21%).
 
+xgboost.ipynb: archive utilizing XGBoost.
+
 Português:
+
+Projeto detectando fraudes com Machine Learning - Inteligência Artificial - Universidade Federal de Rondônia
+
 Nesse projeto, eu usei Modelos de Boosting e comparei com Modelos Baseline.
 
 analysis.ipynb: contém a análise exploratória do dataset.
@@ -23,7 +29,9 @@ Foi encontrado que as transações consideradas fraudes são do tipo 'CASH_OUT' 
 Não há uma correlação entre o horário que aconteceu a transação com o fato dela ser fraude.
 Das transações que são fraudes, em 98% delas, a conta de origem da transação fica sem dinheiro.
 
-log_reg.ipynb: usei técnicas até encontrar um bom modelo.
+log_reg.ipynb: usei técnicas até encontrar um bom modelo, utilizei a regressão logística.
 Explorei undersampling, k-folds, class weights.
 Ao usar class weights, atingi o melhor recall (97,50%), mas a precisão estava baixa (3,56%).
 Ao usar o undersampling, consegui um bom recall (88,68%) e uma precisão um pouco melhor (11,21%).
+
+xgboost.ipynb: arquivo utilizando modelo XGBoost.
