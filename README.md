@@ -16,7 +16,9 @@ I explored undersampling, k-folds, and class weights.
 When using class weights, I achieved the best recall (97.50%), but the accuracy was low (3.56%).
 When using undersampling, I achieved good recall (88.68%) and slightly better accuracy (11.21%).
 
-xgboost.ipynb: archive utilizing XGBoost.
+xgboost.ipynb: archive utilizing XGBoost model.
+
+tree.ipynb: archive utilizing Decision Tree model.
 
 Português:
 
@@ -35,3 +37,5 @@ Ao usar class weights, atingi o melhor recall (97,50%), mas a precisão estava b
 Ao usar o undersampling, consegui um bom recall (88,68%) e uma precisão um pouco melhor (11,21%).
 
 xgboost.ipynb: arquivo utilizando modelo XGBoost.
+
+tree.ipynb: arquivo utilizando modelo Árvore de Decisão.
